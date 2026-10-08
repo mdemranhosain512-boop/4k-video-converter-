@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4K 120 FPS Max Quality Converter</title>
+    <style>
+        body { background-color: #0d0d0d; color: #fff; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .box { background: #181818; border: 1px solid #333; border-radius: 12px; padding: 25px; width: 90%; max-width: 420px; text-align: center; }
+        h2 { color: #f1c40f; margin-bottom: 5px; }
+        p { color: #888; font-size: 13px; }
+        input[type="file"] { margin: 20px 0; display: block; width: 100%; color: #ccc; }
+        button { background: #f1c40f; color: #000; border: none; padding: 12px; width: 100%; font-weight: bold; border-radius: 6px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #d4ac0d; }
+        .rules { background: #222; padding: 12px; border-radius: 8px; margin-top: 20px; text-align: left; font-size: 12px; color: #aaa; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>4K 120 FPS CONVERTER</h2>
+        <p>100% Free • Max Quality Method</p>
+        <form action="/compress" method="POST" enctype="multipart/form-data">
+            <input type="file" name="video" accept="video/*" required>
+            <button type="submit">Render 4K 120 FPS Video</button>
+        </form>
+        <div class="rules">
+            <strong>TikTok Upload Rules:</strong>
+            <ul>
+                <li>ফাইল ডাউনলোড করে সরাসরি সেভ করুন।</li>
+                <li>TikTok Web (Desktop Mode) দিয়ে আপলোড করুন।</li>
+                <li>অ্যাপের ভেতর কোনো সাউন্ড বা ফিল্টার দেবেন না।</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
